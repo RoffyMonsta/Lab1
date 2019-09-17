@@ -4,5 +4,8 @@
 3. Командою "git log" я отримав хеші:
 1e5af92996acc433d565148835f6fd6841f8442b - перший хеш( створив README)
 57cea1b5ea3be412ba625bb7654250d1e4da63ce - другий хеш ( відредагував README)
+4. Створив гілку: git branch new_branch
+	Створив гілку на віддаленому репо: git push origin new_branch
+	Переключився на гілку: git checkout new_branch
 
 
