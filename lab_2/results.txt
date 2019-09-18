@@ -1,39 +1,36 @@
-============================= test session starts =============================
-platform win32 -- Python 3.7.4, pytest-5.1.2, py-1.8.0, pluggy-0.13.0
-rootdir: C:\Users\RoffyMonsta\DevOps\lab_2
+============================= test session starts ==============================
+platform linux -- Python 3.7.4, pytest-5.1.2, py-1.8.0, pluggy-0.13.0
+rootdir: /home/roffy/Lomovatskyi/lab_2
 collected 4 items
 
-tests\tests.py ..F.                                                      [100%]
+tests/tests.py ..F.                                                      [100%]
 
-================================== FAILURES ===================================
-__________________________ TestClass.test_home_work ___________________________
+=================================== FAILURES ===================================
+___________________________ TestClass.test_home_work ___________________________
 
 self = <tests.tests.TestClass testMethod=test_home_work>
 
     def test_home_work(self):
-        # Ваш захист
+        # Р’Р°С€ Р·Р°С…РёСЃС‚
         self.assertTrue(home_work(self.date_pm) == 'PM')
 >       self.assertTrue(home_work(self.date_am) == 'AM')
 E       AssertionError: False is not true
 
-tests\tests.py:29: AssertionError
----------------------------- Captured stdout call -----------------------------
+tests/tests.py:29: AssertionError
+----------------------------- Captured stdout call -----------------------------
 _________________________
 	Good Evening 	
 _________________________
 _________________________
 	 Good Morning 	
 ____________________
-========================= 1 failed, 3 passed in 1.01s =========================
-
------------------------------------------------------
-
+========================= 1 failed, 3 passed in 1.33s ==========================
 ========================================
-Результат без параметрів: 
+Р РµР·СѓР»СЊС‚Р°С‚ Р±РµР· РїР°СЂР°РјРµС‚СЂС–РІ: 
 No URL passed to function
 ========================================
-Результат з правильною URL: 
-Time is:  05:42:47 PM
+Р РµР·СѓР»СЊС‚Р°С‚ Р· РїСЂР°РІРёР»СЊРЅРѕСЋ URL: 
+Time is:  06:42:29 PM
 _________________________
 	Good Evening 	
 _________________________
