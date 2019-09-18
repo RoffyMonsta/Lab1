@@ -6,7 +6,7 @@
 4. Done
 ![4](./img/4.PNG)
 5. Working
-![5](./img/5.PNG)
+![5](./img/5.png)
 6. Installed
 ![6](./img/6.PNG)
 7. It works
@@ -17,5 +17,8 @@
 ![9](./img/9.PNG)
 10. 
 Commands: ![10.1](./img/10.1.PNG)
+
+
+
 Results: ![10.2](./img/10.2.PNG)
       
