@@ -4,11 +4,11 @@
 3. Done
 ![3](./img/3.PNG)
 4. Done
-![4](./img/4.png)
+![4](./img/4.PNG)
 5. Working
-![5](./img/5.png)
+![5](./img/5.PNG)
 6. Installed
-![6](./img/6.png)
+![6](./img/6.PNG)
 7. It works
 ![7](./img/7.PNG)
 8. It works
