@@ -14,7 +14,7 @@
 8. It works
 ![8](./img/8.PNG)
 9. Tested
-![9](./img/9.png)
+![9](./img/9.PNG)
 10. 
 Commands: ![10.1](./img/10.1.PNG)
 Results: ![10.2](./img/10.2.PNG)
