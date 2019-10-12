@@ -6,3 +6,4 @@
 ![3](./img/3.PNG)
 4. This is a basic template in Chrome:
 ![4](./img/4.PNG) 
+5-6. DONE
