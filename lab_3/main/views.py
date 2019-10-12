@@ -1,18 +1,26 @@
 from django.shortcuts import render
 from django.http import JsonResponse
-import os
+import platform
 from datetime import datetime
 
-sinfo = os.uname()
+
 def main(request):
     return render(request, 'main.html', {'parameter': "test"})
 
 
 def health(request):
-    response = {
-'date': datetime.now(),
-'current_page': request.path,
-'server_info': { 'System': sinfo.sysname, 'Hostname': sinfo.nodename, 'Arch': sinfo.machine, 'Version': sinfo.version},
-'client_info': request.META['HTTP_USER_AGENT']
-}
+    rawdate = datetime.now()
+    date = rawdate.strftime("%H:%M:%S %Y-%m-%d")
+    page = request.path
+    server = platform.uname()
+    client = request.META['HTTP_USER_AGENT']
+    response = {'date': date,
+                'current_page': page,
+                'server_info': {
+                    'system': server.system,
+                    'hostname': server.node,
+                    'release': server.release,
+                    'type': server.machine,
+                },
+                'client_info': client}
     return JsonResponse(response)
