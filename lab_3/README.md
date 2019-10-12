@@ -7,3 +7,7 @@
 4. This is a basic template in Chrome:
 ![4](./img/4.PNG) 
 5-6. DONE
+7-9. Done
+10. It's working:
+![10](./img/10.PNG)
+
