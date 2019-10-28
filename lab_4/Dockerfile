@@ -18,7 +18,7 @@ RUN git clone https://github.com/RoffyMonsta/Lomovatskyi.git
 # Створюємо остаточну робочу папку з Веб-сайтом та копіюємо туди файли
 WORKDIR /app
 
-RUN cp -r lab/Lomovatskyi/lab3/* .
+RUN cp -r /lab/Lomovatskyi/lab_3/* .
 # Інсталюємо всі залежності
 RUN pipenv install
 
