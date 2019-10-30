@@ -1,0 +1,16 @@
+INFO 2019-10-12 19:58:41,548 root : ������ ���������. ��� �� ������: 19:58:41 2019-10-12
+INFO 2019-10-12 19:58:41,549 root : ���������� �������: : /health/
+INFO 2019-10-12 19:58:41,549 root : ���������� ��� ������: : {'system': 'Windows', 'hostname': 'RoffyMonsta-PC', 'release': '10', 'type': 'AMD64'}
+INFO 2019-10-12 19:58:41,549 root : ���������� ��� �����������: : python-requests/2.22.0
+ERROR 2019-10-30 09:17:48,265 root : Якась помилка: : HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa7d38772d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2019-10-30 09:18:48,330 root : Якась помилка: : ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+ERROR 2019-10-30 09:22:04,832 root : Якась помилка: : HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f87f33042d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2019-10-30 09:23:04,862 root : Якась помилка: : HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f87f3bea0d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2019-10-30 09:28:26,539 root : Якась помилка: : HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f046b1d03d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2019-10-30 09:29:26,643 root : Якась помилка: : HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f046b966150>: Failed to establish a new connection: [Errno 111] Connection refused'))
+ERROR 2019-10-30 09:30:26,661 root : Якась помилка: : HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f046b966e90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+INFO 2019-10-30 09:32:28,577 root : Сервер доступний. Час на сервері: 09:32:28 2019-10-30
+INFO 2019-10-30 09:32:28,578 root : Запитувана сторінка: : /health/
+INFO 2019-10-30 09:32:28,578 root : Інформація про сервер: : {'system': 'Linux', 'hostname': '1c0d33528e44', 'release': '5.0.0-32-generic', 'type': 'x86_64'}
+INFO 2019-10-30 09:32:28,578 root : Інформація про користувача: : python-requests/2.22.0
+ERROR 2019-10-30 09:33:28,628 root : Якась помилка: : HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4c9b27bd10>: Failed to establish a new connection: [Errno 111] Connection refused'))

@@ -12,7 +12,8 @@
 7. DOne
 ![4](./img/4.PNG)
 8.
-docker build -f DockerFileSecond -t roffymonsta/lab_4:djangoMONITORING .
-docker push roffymonsta/lab_4:djangoMONITORING
-docker run -it --name=djangoMONITORING --rm --net=host roffymonsta/lab_4:djangoMONITORING
+docker build -f DockerFileSecond -t roffymonsta/lab_4:djangoMONITORING . ;
+docker push roffymonsta/lab_4:djangoMONITORING ; 
+docker volume create roffymonsta ;
+docker run -it --name=djangoMONITORING --rm --net=host -v roffymonsta:/app  roffymonsta/lab_4:djangoMONITORING
 DONE
