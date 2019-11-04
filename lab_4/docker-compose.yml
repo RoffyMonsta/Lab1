@@ -13,7 +13,7 @@ services:
   monitoring:
     build:
       context: .
-      dockerfile: DockerfileSecond
+      dockerfile: DockerFileSecond
     image: roffymonsta/lab_4:compose-second
     container_name: monitoring
     networks:
