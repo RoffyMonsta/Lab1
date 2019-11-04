@@ -1,0 +1,23 @@
+version: '3.7'
+services:
+  app_server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: roffymonsta/lab_4:compose-first
+    container_name: app_server
+    networks:
+      - public
+    ports:
+      - 8080:8000
+  monitoring:
+    build:
+      context: .
+      dockerfile: DockerfileSecond
+    image: roffymonsta/lab_4:compose-second
+    container_name: monitoring
+    networks:
+      - public
+networks:
+  public:
+    driver: bridge
