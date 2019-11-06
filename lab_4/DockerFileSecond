@@ -20,8 +20,8 @@ WORKDIR /app
 RUN cp -r /lab/Lomovatskyi/lab_3/* .
 
 # Інсталюємо всі залежності
-RUN pipenv install
-
+RUN pipenv --python 3.7
+RUN pipenv install requests
 #
 EXPOSE 8000
 
