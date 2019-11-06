@@ -12,4 +12,5 @@
 13. Networks: public, secret. The names are as they are, it's about security
 14-18. Done! DockerHub [link](https://cloud.docker.com/repository/docker/roffymonsta/lab_5)!
 19. Makefile is better when we'd like to choose an option, and the docker-compose is better in automatic work with a lot of commands. This is a small project, so Makefile is better and more understandable in this case.
-
+20. After a long time i made it. Installing requests and django in pipenv did the trick for me. Also you have to change allowed hosts and be careful with networks. Always clean docker with Makefile in lab5 after every try.
+![3](./img/3.PNG) 
