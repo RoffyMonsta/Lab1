@@ -27,4 +27,4 @@ class TestClass(unittest.TestCase):
         # Ваш захист
         self.assertTrue(home_work(self.date_pm) == 'PM')
         self.assertTrue(home_work(self.date_am) == 'AM')
-        self.assertLogs(home_work(self.nothing) == "Can't detect")
+        self.assertFalse(home_work(self.nothing) == "Can't detect")
