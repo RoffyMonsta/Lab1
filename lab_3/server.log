@@ -3,3 +3,4 @@ INFO 2019-10-12 19:58:41,549 root : Запитувана сторінка: : /health/
 INFO 2019-10-12 19:58:41,549 root : Інформація про сервер: : {'system': 'Windows', 'hostname': 'RoffyMonsta-PC', 'release': '10', 'type': 'AMD64'}
 INFO 2019-10-12 19:58:41,549 root : Інформація про користувача: : python-requests/2.22.0
 ERROR 2019-11-19 17:21:51,140 root : РЇРєР°СЃСЊ РїРѕРјРёР»РєР°: : HTTPConnectionPool(host='app', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa57b4577b8>: Failed to establish a new connection: [Errno -2] Name or service not known',))
+ERROR 2019-11-19 17:36:57,127 root : РЇРєР°СЃСЊ РїРѕРјРёР»РєР°: : HTTPConnectionPool(host='app', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f041c8fd7b8>: Failed to establish a new connection: [Errno -2] Name or service not known',))
