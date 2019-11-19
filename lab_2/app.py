@@ -45,7 +45,7 @@ def home_work(t):
         print("_" * 25)
         print("\t Good Morning \t")
         print("_"*20)
-        return 'am'
+        return 'AM'
     else:
         print("Can't detect")
         return 0
