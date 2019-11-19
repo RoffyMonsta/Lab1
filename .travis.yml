@@ -11,8 +11,9 @@ jobs:
       install:
         - cd ./lab_2/
         - pipenv install
-      script: -pipenv run pytest tests/tests.py || true
-              -pipenv run python app.py || true
+      script: 
+    - pipenv run pytest tests/tests.py
+    - pipenv run python app.py
     - stage: "Build Lab 3."
       name: "Run Django Server and test it accessibility. Fail to run and test"
       python: 3.7
