@@ -15,6 +15,7 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 def main(url):
+    print("Monitor running")
     try:
         r = requests.get(url)
         r.raise_for_status()
