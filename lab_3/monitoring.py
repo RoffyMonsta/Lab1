@@ -14,9 +14,6 @@ logging.basicConfig(
     style='{'
 )
 log = logging.getLogger(__name__)
-def runminute():
-    main("http://localhost:8000/health")
-
 def main(url):
     try:
         r = requests.get(url)
@@ -35,7 +32,7 @@ def main(url):
 
     while True:
         time.sleep(60)
-        runminute()
+        main(url)
 '''
     logging.info("Відповідь сервера місти наступні поля:")
     for key in data.keys():
@@ -43,4 +40,4 @@ def main(url):
 '''
 
 if __name__ == '__main__':
-    runminute()
+    main("http://app:8000/health")
