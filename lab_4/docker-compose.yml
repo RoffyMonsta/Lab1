@@ -7,20 +7,15 @@ services:
     image: roffymonsta/lab_4:compose-first
     container_name: app_server
     depends_on:
-
       - app
-    networks:
-      - public
     ports:
-      - 8080:8000
+      - 8000:8000
   monitoring:
     build:
       context: .
       dockerfile: DockerFileSecond
     image: roffymonsta/lab_4:compose-second
     container_name: monitoring
-    networks:
-      - public
-networks:
-  public:
-    driver: bridge
+    depends_on:
+    - app
+    network_mode: "host"
