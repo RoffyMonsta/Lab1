@@ -35,8 +35,9 @@ def main(url):
     for key in data.keys():
         logging.info("Ключ: %s, Значення: %s", key, data[key])
 '''
-    while True:
-        time.sleep(60)
-        main(url)
 if __name__ == '__main__':
-    main("http://app:8000/health")
+    iterat = 0
+    while iterat < 4:
+        main("http://app:8000/health")
+        time.sleep(3)
+        iterat=iterat+1
